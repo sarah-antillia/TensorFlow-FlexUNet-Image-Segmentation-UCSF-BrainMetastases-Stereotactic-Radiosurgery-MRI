@@ -325,7 +325,7 @@ and run the following bat file to evaluate TensorFlowUNet model for UCSF-BrainMe
 </pre>
 This bat file simply runs the following command.
 <pre>
-python ../../../src/TensorFlowUNetEvaluator.py ./train_eval_infer_aug.config
+python ../../../src/TensorFlowUNetEvaluator.py ./train_eval_infer.config
 </pre>
 
 Evaluation console output:<br>
@@ -351,7 +351,7 @@ Please move to a <b>./projects/TensorFlowFlexUNet/UCSF-BrainMetastases</b> folde
 </pre>
 This simply runs the following command.
 <pre>
-python ../../../src/TensorFlowUNetInferencer.py ./train_eval_infer_aug.config
+python ../../../src/TensorFlowUNetInferencer.py ./train_eval_infer.config
 </pre>
 <hr>
 <b>mini_test_images</b><br>
